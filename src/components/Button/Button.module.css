@@ -1,0 +1,23 @@
+button.styled{
+	padding: 16px 32px;
+
+	background-color: var(--primary-color);
+
+	color: #e43f5a;
+	font-family: "Montserrat", sans-serif;
+
+	border: 1px solid #e43f5a;
+	border-radius: 5px;
+
+	transition: all ease-in-out 250ms;
+	cursor: pointer;
+}
+
+button.styled:hover{
+	background-color: #e43f5a;
+	color: var(--primary-color);
+}
+
+button.styled:focus{
+	outline: none;
+}

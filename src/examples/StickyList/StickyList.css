@@ -1,0 +1,10 @@
+section.sticky-list{
+    width: 100%;
+	min-height: 100vh;
+
+	padding: 32px;
+
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}

@@ -1,0 +1,54 @@
+div.sticky-card {
+	width: 50%;
+	height: 400px;
+	margin: 0 0 32px;
+	padding: 16px;
+
+	position: sticky;
+	overflow: hidden;
+
+	background-color: aliceblue;
+	border-radius: 1em 0;
+	box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	user-select: none;
+}
+
+div.sticky-card:last-of-type{
+	margin-bottom: 0;
+}
+
+div.sticky-card>h1{
+	margin: 16px 0;
+	align-self: flex-start;
+
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+
+div.sticky-card>article {
+	overflow: auto;
+
+	margin: 8px 0;
+	padding: 0 16px;
+}	
+
+div.sticky-card p{
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	text-align: justify;
+}
+
+div.sticky-card>h2 {
+	margin: 16px 0;
+	align-self: flex-end;
+
+	font-size: 1em;
+	font-weight: 400;
+	color: #aaa;
+}
