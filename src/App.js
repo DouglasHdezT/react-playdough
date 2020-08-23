@@ -3,6 +3,7 @@ import "./App.css";
 
 import StickyList from './examples/StickyList/StickyList';
 import ThemeSwitch from './examples/ThemeSwitch/ThemeSwitch';
+import HSLPicker from './examples/HSLPicker/HSLPicker';
 
 function App() {
 	const [darkMode, setDarkMode] = useState(true);
@@ -10,10 +11,11 @@ function App() {
 
 	return (
 		<div className={`App ${themeClass}`}> 
-			<StickyList/>
-			<ThemeSwitch changeThemeHandler={() => {
+			<ThemeSwitch darkmode={darkMode	} changeThemeHandler={() => {
 				setDarkMode(!darkMode)
-			}}/>
+			}} />
+			<StickyList/>
+			<HSLPicker/>
 		</div>
 	);
 }

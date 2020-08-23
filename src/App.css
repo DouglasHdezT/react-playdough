@@ -3,16 +3,23 @@
 
 .App {
 	width: 100%;
+	--material-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .App.dark{
 	--primary-color: #282c34;
 	--secondary-color: #162447;
+	--accent-color: #e43f5a;
+	--title-color: #fff;
+	--text-color: #fff;
 }
 
 .App.light{
 	--primary-color: #effcef;
 	--secondary-color: #ccedd2;
+	--accent-color: #655c56;
+	--title-color: #000;
+	--text-color: #333;
 }
 
 .App>section:nth-child(odd){

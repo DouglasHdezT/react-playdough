@@ -1,0 +1,22 @@
+section.hsl-picker{
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.hsl-picker>article{
+    height: 50vh;
+    margin: 0 20%;
+
+    align-self: stretch;
+
+    overflow: hidden;
+    border-radius: 50px;
+
+    box-shadow: var(--material-shadow);
+}

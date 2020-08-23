@@ -1,0 +1,8 @@
+h2.sect-title{
+    margin: 16px 0px;
+
+    color: var(--title-color);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+}
