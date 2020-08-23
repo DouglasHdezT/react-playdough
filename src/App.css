@@ -12,6 +12,7 @@
 	--accent-color: #e43f5a;
 	--title-color: #fff;
 	--text-color: #fff;
+	--light-percent: 80%;
 }
 
 .App.light{
@@ -20,6 +21,7 @@
 	--accent-color: #655c56;
 	--title-color: #000;
 	--text-color: #333;
+	--light-percent: 20%;
 }
 
 .App>section:nth-child(odd){

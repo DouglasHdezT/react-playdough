@@ -9,6 +9,11 @@ const ThemeSwitch = ({ changeThemeHandler, darkmode }) => {
     return (
         <section className="switcher">
             <Button
+                style={{
+                    position: "fixed",
+                    left: 16,
+                    top: 16
+                }}
                 onClick={changeThemeHandler}
                 value={buttonText} />
         </section>

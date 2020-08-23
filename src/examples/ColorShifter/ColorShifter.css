@@ -1,0 +1,18 @@
+section.shifter-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.shifter-container>div{
+    width: 250px;
+    height: 250px;
+
+    border-radius: 10%;
+    box-shadow: var(--material-shadow);
+
+    transition: all ease-in-out 1s;
+}

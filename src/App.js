@@ -4,6 +4,7 @@ import "./App.css";
 import StickyList from './examples/StickyList/StickyList';
 import ThemeSwitch from './examples/ThemeSwitch/ThemeSwitch';
 import HSLPicker from './examples/HSLPicker/HSLPicker';
+import ColorShifter from './examples/ColorShifter/ColorShifter';
 
 function App() {
 	const [darkMode, setDarkMode] = useState(true);
@@ -15,7 +16,8 @@ function App() {
 				setDarkMode(!darkMode)
 			}} />
 			<StickyList/>
-			<HSLPicker/>
+			<HSLPicker />
+			<ColorShifter/>
 		</div>
 	);
 }
